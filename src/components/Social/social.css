@@ -1,0 +1,195 @@
+@import url("https://use.fontawesome.com/releases/v5.0.12/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #fafafa;
+}
+
+.con {
+  overflow: scroll;
+}
+
+.container {
+  height: 90.3vh;
+  position: relative;
+  top: 5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/* post box */
+.post {
+  padding: 1rem;
+  width: 550px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 15px;
+  background-color: white;
+  /* social buttons */
+}
+
+.post__left {
+  width: 20%;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.post__right {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.post__avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.post__header {
+  height: 80px;
+  padding-top: 15px;
+  line-height: 18px;
+}
+
+.post__name {
+  font-weight: bold;
+}
+
+.post__handle {
+  color: #a1a1a1;
+  cursor: pointer;
+}
+
+.post__footer {
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post__button {
+  width: 80px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #838383;
+}
+
+.post__button:hover {
+  color: #505050;
+}
+
+.post__button i {
+  font-size: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.post__button--retweet {
+  color: #1ab402;
+}
+
+.post__button--retweet:hover {
+  color: #1ecd02;
+}
+
+.post__button--heart {
+  color: #d80207;
+}
+
+.post__button--heart:hover {
+  color: #fd1016;
+}
+
+/* card */
+.card {
+  width: 325px;
+  height: 325px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  /* card image */
+  /* card story details */
+}
+
+.card__image-box {
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card__image {
+  width: 100%;
+  height: 57%;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+}
+
+.card__footer {
+  width: 100%;
+  height: 40%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+}
+
+.card__url {
+  color: #a1a1a1;
+  cursor: pointer;
+}
+/*# sourceMappingURL=social.css.map */
