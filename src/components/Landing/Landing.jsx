@@ -10,8 +10,8 @@ function Landing() {
         <Link to="/shop">
           <div>
             <p className="three">
+              SHOP NOW
               <img className="icon" src={icon} />
-              <p>SHOP NOW</p>
             </p>
           </div>
         </Link>
