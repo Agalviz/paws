@@ -26,9 +26,6 @@ a {
 }
 
 .three {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
   opacity: 80%;
   font-size: 5rem;
   outline: 0.5rem solid white;
